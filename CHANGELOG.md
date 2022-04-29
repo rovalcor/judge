@@ -1,5 +1,7 @@
 # Changelog
 
+* **3.0.1**
+    - Changed use of URI.decode to URI.decode_www_form_component, in order to address the method's deprecation since [Ruby 2.7](https://ruby-doc.org/stdlib-2.7.0/libdoc/uri/rdoc/URI/Escape.html)
 * **3.0.0**
     - Updates Rails support to 5.0+ and Ruby support to 2.2+
     - [#71](https://github.com/joecorcoran/judge/pull/71): Add Code of Conduct from contributor-covenant.org
